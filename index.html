@@ -8,101 +8,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-            font-family: 'Nunito Sans', Arial, sans-serif; /* Aplica Nunito Sans */
-        }
-        table { 
-            width: 100vw;
-            border: #000000 solid 3px;  
-            width: "20%";
-        }
-        .clickeables {
-            border: #000000 solid 2px;
-            display: flex; 
-            flex-direction: column; 
-            align-items: center; 
-            gap: 10px;
-        }
-        .presentacion {
-            width: 70%; 
-            align: center;
-            font-size: 40px;
-            font-family: 'Nunito Sans', Arial, sans-serif; /* Aplica Nunito Sans */
-        }
-        .FabriMATE {
-            width: 30%;
-            border: #000000 solid 2px;  
-        }
-        h1, h2 {
-            margin-bottom: 10px;
-            font-family: 'Nunito Sans', Arial, sans-serif; /* Aplica Nunito Sans */
-        }
-        p {
-            margin: 5px 0;
-            font-family: 'Nunito Sans', Arial, sans-serif; /* Aplica Nunito Sans */
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+    <div>
+        <nav>
+            <div class="menu-underline">
+                <ul>
+                    <li> <a href="index.html">Inicio</a> </li>
+                    <li> <a href="tabla.html">Tabla</a> </li>
+                    <li> <a href="playlist.html">Playlist</a> </li>
+                    <li> <a href="juego.html">Juego</a> </li>
+                </ul>   
+            </div>
+        </nav>
         <table> 
             <tr>
                 <td>
                     <div class="clickeables">
-                        <div style="width: 135px; height: 135px;"> 
-                            <a href="Viajes.html">   
-                                <img src="Ilustraciones/Road trip-bro.png" alt="" style="width: 100%; height: 100%; object-fit: contain;">
+                        <div style="width: 270px; height: 270px;"> 
+                            <a href="https://open.spotify.com/" target="_blank">   
+                                <img src="Ilustraciones/Voice interface-pana.svg" alt="" style="width: 100%; height: 100%;">
                             </a> 
                         </div>
-                        <div style="width: 135px; height: 135px;"> 
-                            <a href="Musica.html">   
-                                <img src="Ilustraciones/Voice interface-pana.svg" alt="" style="width: 100%; height: 100%; object-fit: contain;">
+                        <div style="width: 270px; height: 270px;"> 
+                            <a href="https://www.notion.com/" target="_blank">   
+                                <img src="Ilustraciones/Sorting thoughts-bro.svg" alt="" style="width: 100%; height: 100%;">
                             </a> 
-                        </div>
-                        <div style="width: 135px; height: 135px;"> 
-                            <a href="Salud.html">   
-                                <img src="Ilustraciones/Sorting thoughts-bro.svg" alt="" style="width: 100%; height: 100%; object-fit: contain;">
-                            </a> 
-                        </div>
-                        <div style="width: 135px; height: 135px;"> 
-                            <a href="Gatihijas.html">   
-                                <img src="Ilustraciones/Cat throwing a vase-rafiki.svg" alt="" style="width: 100%; height: 100%; object-fit: contain;">
-                            </a> 
-                        </div>
-                        <div style="width: 135px; height: 135px;"> 
-                            <a href="Orden.html">  
-                                <img src="Ilustraciones/Time management-bro.png" alt="" style="width: 100%; height: 100%; object-fit: contain;">
-                            </a> 
-                        </div>
-                        <div style="width: 135px; height: 135px;"> 
-                            <a href="Juegos.html">   
-                                <img src="Ilustraciones/Online games addiction-bro.png" alt="1" style="width: 100%; height: 100%; object-fit: contain;">
+                        </div> 
+                        <div style="width: 270px; height: 270px;"> 
+                            <a href="https://www.crunchyroll.com/" target="_blank">   
+                                <img src="Ilustraciones/Online games addiction-bro.png" alt="1" style="width: 100%; height: 100%;">
                             </a> 
                         </div>
                     </div> 
                 </td>
-                
                 <td class="presentacion"> 
                     <h1>Hola Mundo</h1>
-
+                    
                     <h2>Soy Fabricio</h2>
                     
                 </td>
                 
                 <td class="FabriMATE">
-                <div style="text-align: right;">
-                    <img src="Fotos/FabriMATE.webp" alt="Foto de Fabricio" width="860" height="860">
-                </div>
+                    <div style="text-align: right;">
+                        <img src="Fotos/FabriMATE.webp" alt="Foto de Fabricio" width="860" height=auto>
+                    </div>
                 </td>
             </tr>
-        </table> 
-        <h2 > JUEGO </h2>
+        </table>
+        <footer>
+            <div class="footer">
+                <p>Fabricio Agustin Sosa Leonetti</p>
+                <p>2025</p>
+            </div>
+        </footer> 
     </div>
 </body>
 </html>
