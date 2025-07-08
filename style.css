@@ -103,3 +103,70 @@ p {
     padding-top: 20px;
     text-align: center;
 }
+
+@media (max-width: 900px) {
+    body {
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    table {
+        width: 100vw;
+        display: block;
+    }
+    tr, td {
+        display: block;
+        width: 100% !important;
+        box-sizing: border-box;
+        border: none;
+    }
+    .clickeables {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .clickeables > div {
+        width: 40vw !important;
+        max-width: 180px;
+        height: auto !important;
+        min-width: 120px;
+    }
+    .presentacion {
+        width: 100%;
+        font-size: 28px;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .FabriMATE {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .FabriMATE img {
+        width: 80vw !important;
+        max-width: 320px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .menu-underline {
+        margin-top: 10px;
+    }
+    .menu-underline ul {
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+        background-color: #5A6E7F;
+    }
+    .menu-underline li {
+        text-align: center;
+        border-bottom: 1px solid #324052;
+        padding: 8px 0;
+    }
+    .footer {
+        padding-top: 10px;
+        font-size: 14px;
+    }
+}
